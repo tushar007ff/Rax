@@ -1,12 +1,12 @@
 {
-    "name": "𝚁𝚄𝙳𝚁𝙰 𝙼𝚄𝚂𝙸𝙲",
+    "name": "Rax MusicBot",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
     "logo": "https://telegra.ph/file/393015358af97a6746cbe.jpg",
     "keywords": [
     "python3",
     "telegram",
     "bot",
-    "Rudra",
+    "Rax",
     "MusicBot",
     "telegram-bot",
     "pyrogram"

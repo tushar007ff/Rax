@@ -2,15 +2,15 @@ import asyncio
 import config
 import random
 from pyrogram import filters
-from Rudra import app 
-from Rudra.core.userbot import Client
-from Rudra.misc import SUDOERS
+from Rax import app 
+from Rax.core.userbot import Client
+from Rax.misc import SUDOERS
 
 
 
 
 
-BOT_LIST = ["HinataBot", "RudraTEAMBOT"]
+BOT_LIST = ["HinataBot", "RaxTEAMBOT"]
 
 
 

@@ -1,13 +1,13 @@
 import os, time
 import openai
 from pyrogram import filters
-from Rudra import app
+from Rax import app
 from pyrogram.enums import ChatAction, ParseMode
 from gtts import gTTS
 
 
 
-openai.api_key = "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"
+openai.api_key = "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"
 
 
 

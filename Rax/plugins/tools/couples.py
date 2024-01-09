@@ -8,8 +8,8 @@ from pyrogram.types import *
 from pyrogram.enums import *
 
 #BOT FILE NAME
-from Rudra import app as app
-from Rudra.mongo.couples_db import _get_image, get_couple
+from Rax import app as app
+from Rax.mongo.couples_db import _get_image, get_couple
 
 def dt():
     now = datetime.now()
@@ -62,16 +62,16 @@ async def ctest(_, message):
          try:
             p1 = await app.download_media(photo1.big_file_id, file_name="pfp.png")
          except Exception:
-            p1 = "Rudra/assets/upic.png"
+            p1 = "Rax/assets/upic.png"
          try:
             p2 = await app.download_media(photo2.big_file_id, file_name="pfp1.png")
          except Exception:
-            p2 = "Rudra/assets/upic.png"
+            p2 = "Rax/assets/upic.png"
             
          img1 = Image.open(f"{p1}")
          img2 = Image.open(f"{p2}")
 
-         img = Image.open("Rudra/assets/cppic.png")
+         img = Image.open("Rax/assets/cppic.png")
 
          img1 = img1.resize((437,437))
          img2 = img2.resize((437,437))

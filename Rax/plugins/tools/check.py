@@ -1,7 +1,7 @@
 from pyrogram import Client, filters, types
 import re
 import time
-from Rudra import app
+from Rax import app
 from config import BOT_USERNAME
 
 

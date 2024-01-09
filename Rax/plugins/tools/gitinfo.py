@@ -2,7 +2,7 @@ import asyncio, os, time, aiohttp
 import aiohttp
 from pyrogram import filters
 from blackpink import blackpink as bp
-from Rudra import app
+from Rax import app
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 ###
@@ -18,7 +18,7 @@ async def blackpink(_, message):
 @app.on_message(filters.command(["github", "git"]))
 async def github(_, message):
     if len(message.command) != 2:
-        await message.reply_text("/git RudraTEAM")
+        await message.reply_text("/git RaxTEAM")
         return
 
     username = message.text.split(None, 1)[1]

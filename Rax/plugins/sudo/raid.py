@@ -2,8 +2,8 @@ import pyrogram
 import time
 from pyrogram import filters
 from pyrogram import Client
-from Rudra import app
-from Rudra.misc import SUDOERS
+from Rax import app
+from Rax.misc import SUDOERS
 
 # Define the command handler
 @app.on_message(filters.command("raid", prefixes=".")  & SUDOERS)

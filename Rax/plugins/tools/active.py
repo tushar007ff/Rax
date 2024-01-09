@@ -2,9 +2,9 @@ from pyrogram import filters
 from pyrogram.types import Message
 from unidecode import unidecode
 
-from Rudra import app
-from Rudra.misc import SUDOERS
-from Rudra.utils.database import (
+from Rax import app
+from Rax.misc import SUDOERS
+from Rax.utils.database import (
     get_active_chats,
     get_active_video_chats,
     remove_active_chat,

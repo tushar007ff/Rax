@@ -1,10 +1,10 @@
 import re
-from Rudra import app
+from Rax import app
 from config import BOT_USERNAME
-from Rudra.utils.Rudra_ban import admin_filter
-from Rudra.mongo.filtersdb import *
-from Rudra.utils.filters_func import GetFIlterMessage, get_text_reason, SendFilterMessage
-from Rudra.utils.Hinadb import user_admin
+from Rax.utils.Rax_ban import admin_filter
+from Rax.mongo.filtersdb import *
+from Rax.utils.filters_func import GetFIlterMessage, get_text_reason, SendFilterMessage
+from Rax.utils.Hinadb import user_admin
 from pyrogram import filters
 from pyrogram.enums import ChatMemberStatus
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup

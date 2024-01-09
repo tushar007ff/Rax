@@ -1,10 +1,10 @@
-from Rudra import app
+from Rax import app
 from config import BOT_USERNAME
 from pyrogram import filters
-from Rudra.utils.Rudra_ban import admin_filter
-from Rudra.mongo.notesdb import *
-from Rudra.utils.notes_func import GetNoteMessage, exceNoteMessageSender, privateNote_and_admin_checker
-from Rudra.utils.Hinadb import user_admin
+from Rax.utils.Rax_ban import admin_filter
+from Rax.mongo.notesdb import *
+from Rax.utils.notes_func import GetNoteMessage, exceNoteMessageSender, privateNote_and_admin_checker
+from Rax.utils.Hinadb import user_admin
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup , Message , CallbackQuery
 from pyrogram.enums import ChatMemberStatus
 
@@ -82,7 +82,7 @@ async def PrivateNote(client, message):
     else:
         if await is_pnote_on(chat_id):
             await message.reply(
-                "Your notes are currently being sent in private. Rudra will send a small note with a button which redirects to a private chat.",
+                "Your notes are currently being sent in private. Rax will send a small note with a button which redirects to a private chat.",
                 quote=True
             )
         else:

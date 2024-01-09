@@ -1,7 +1,7 @@
 from io import BytesIO
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from Rudra import app
+from Rax import app
 from httpx import AsyncClient, Timeout
 
 

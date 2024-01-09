@@ -1,6 +1,6 @@
 from pyrogram import filters
 from pyrogram.types import *
-from Rudra import app
+from Rax import app
 from gpytranslate import Translator
 
 #.......

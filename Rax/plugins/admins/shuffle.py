@@ -3,10 +3,10 @@ import random
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Rudra import app
-from Rudra.misc import db
-from Rudra.utils.decorators import AdminRightsCheck
-from Rudra.utils.inline import close_markup
+from Rax import app
+from Rax.misc import db
+from Rax.utils.decorators import AdminRightsCheck
+from Rax.utils.inline import close_markup
 from config import BANNED_USERS
 
 

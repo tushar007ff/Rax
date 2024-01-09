@@ -1,10 +1,10 @@
 from pyrogram import enums
 from pyrogram.enums import ChatType
 from pyrogram import filters, Client
-from Rudra import app
+from Rax import app
 from config import OWNER_ID
 from pyrogram.types import Message
-from Rudra.utils.Rudra_ban import admin_filter
+from Rax.utils.Rax_ban import admin_filter
 from pyrogram.types import Message, CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
 
 

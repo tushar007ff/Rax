@@ -4,15 +4,15 @@ from datetime import datetime
 from pyrogram.enums import ChatType
 
 import config
-from Rudra import app
-from Rudra.core.call import Rudra, autoend
-from Rudra.utils.database import get_client, is_active_chat, is_autoend
+from Rax import app
+from Rax.core.call import Rax, autoend
+from Rax.utils.database import get_client, is_active_chat, is_autoend
 
 
 async def auto_leave():
     if config.AUTO_LEAVING_ASSISTANT:
         while not await asyncio.sleep(900):
-            from Rudra.core.userbot import assistants
+            from Rax.core.userbot import assistants
 
             for num in assistants:
                 client = await get_client(num)
@@ -59,7 +59,7 @@ async def auto_end():
                     continue
                 autoend[chat_id] = {}
                 try:
-                    await Rudra.stop_stream(chat_id)
+                    await Rax.stop_stream(chat_id)
                 except:
                     continue
                 try:

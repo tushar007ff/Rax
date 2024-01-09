@@ -1,6 +1,6 @@
-from Rudra.utils.mongo import db
+from Rax.utils.mongo import db
 
-#from Rudra.mongo import *# back...............
+#from Rax.mongo import *# back...............
 
 notes = db.notes["notes"]
 

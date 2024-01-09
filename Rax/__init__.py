@@ -1,8 +1,8 @@
-from Rudra.core.bot import Rudra
-from Rudra.core.dir import dirr
-from Rudra.core.git import git
-from Rudra.core.userbot import Userbot
-from Rudra.misc import dbb, heroku
+from Rax.core.bot import Rax
+from Rax.core.dir import dirr
+from Rax.core.git import git
+from Rax.core.userbot import Userbot
+from Rax.misc import dbb, heroku
 
 from SafoneAPI import SafoneAPI
 from .logging import LOGGER
@@ -12,7 +12,7 @@ git()
 dbb()
 heroku()
 
-app = Rudra()
+app = Rax()
 api = SafoneAPI()
 userbot = Userbot()
 

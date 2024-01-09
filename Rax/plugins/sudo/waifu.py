@@ -1,10 +1,10 @@
 from pyrogram import Client, filters
 import requests
-from Rudra import app
+from Rax import app
 
 waifu_api_url = 'https://api.waifu.im/search'
 
-# Rudra_JAAT_1
+# Rax_JAAT_1
 
 def get_waifu_data(tags):
     params = {

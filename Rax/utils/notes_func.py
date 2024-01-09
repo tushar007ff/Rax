@@ -3,10 +3,10 @@ from pyrogram.types import Message
 import html
 import re
 from pyrogram.types import InlineKeyboardMarkup
-from Rudra import app
-from Rudra.mongo.notesdb import GetNote
+from Rax import app
+from Rax.mongo.notesdb import GetNote
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
-from Rudra.utils.msg_types import button_markdown_parser
+from Rax.utils.msg_types import button_markdown_parser
 
 class NoteTypeMap(Enum):
     text = auto()

@@ -2,9 +2,9 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter, ChatMemberStatus, ChatType
 from pyrogram.types import Message
 
-from Rudra import app
-from Rudra.utils.database import set_cmode
-from Rudra.utils.decorators.admins import AdminActual
+from Rax import app
+from Rax.utils.database import set_cmode
+from Rax.utils.decorators.admins import AdminActual
 from config import BANNED_USERS
 
 

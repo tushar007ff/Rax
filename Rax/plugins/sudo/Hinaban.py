@@ -1,10 +1,10 @@
 import requests
 import random
-from Rudra import app, userbot
-from Rudra.misc import SUDOERS
+from Rax import app, userbot
+from Rax.misc import SUDOERS
 from pyrogram import * 
 from pyrogram.types import *
-from Rudra.utils.Rudra_ban import admin_filter
+from Rax.utils.Rax_ban import admin_filter
 
 
 

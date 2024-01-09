@@ -4,10 +4,10 @@ from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
-from Rudra import app
-from Rudra.misc import SUDOERS
-from Rudra.utils import get_readable_time
-from Rudra.utils.database import (
+from Rax import app
+from Rax.misc import SUDOERS
+from Rax.utils import get_readable_time
+from Rax.utils.database import (
     add_banned_user,
     get_banned_count,
     get_banned_users,
@@ -15,8 +15,8 @@ from Rudra.utils.database import (
     is_banned_user,
     remove_banned_user,
 )
-from Rudra.utils.decorators.language import language
-from Rudra.utils.extraction import extract_user
+from Rax.utils.decorators.language import language
+from Rax.utils.extraction import extract_user
 from config import BANNED_USERS
 
 

@@ -1,13 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Rudra import app
-from Rudra.core.call import Rudra
-from Rudra.misc import SUDOERS, db
-from Rudra.utils import AdminRightsCheck
-from Rudra.utils.database import is_active_chat, is_nonadmin_chat
-from Rudra.utils.decorators.language import languageCB
-from Rudra.utils.inline import close_markup, speed_markup
+from Rax import app
+from Rax.core.call import Rax
+from Rax.misc import SUDOERS, db
+from Rax.utils import AdminRightsCheck
+from Rax.utils.database import is_active_chat, is_nonadmin_chat
+from Rax.utils.decorators.language import languageCB
+from Rax.utils.inline import close_markup, speed_markup
 from config import BANNED_USERS, adminlist
 
 checker = []
@@ -94,7 +94,7 @@ async def del_back_playlist(client, CallbackQuery, _):
         text=_["admin_32"].format(CallbackQuery.from_user.mention),
     )
     try:
-        await Rudra.speedup_stream(
+        await Rax.speedup_stream(
             chat_id,
             file_path,
             speed,

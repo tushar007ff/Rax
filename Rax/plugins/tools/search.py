@@ -4,7 +4,7 @@ from search_engine_parser.core.engines.google import Search as GoogleSearch
 from search_engine_parser.core.engines.stackoverflow import \
     Search as StackSearch
 from search_engine_parser.core.exceptions import NoResultsFound, NoResultsOrTrafficError
-from Rudra import app
+from Rax import app
 from pyrogram import filters
 
 
@@ -123,7 +123,7 @@ async def search_(app: app, msg: Message):
         return
     except Exception as e:
         await to_del.delete()
-        await msg.reply_text(f"**sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ :\nʀᴇᴘᴏʀᴛ ᴀᴛ ɪᴛ** @Rudra_JAAT_1")
+        await msg.reply_text(f"**sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ ᴡʀᴏɴɢ :\nʀᴇᴘᴏʀᴛ ᴀᴛ ɪᴛ** @Rax_JAAT_1")
         print(f"error : {e}")
         return
 

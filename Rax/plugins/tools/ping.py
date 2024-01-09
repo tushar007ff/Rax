@@ -1,11 +1,11 @@
 from datetime import datetime
 from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
-from Rudra import app
-from Rudra.core.call import Rudra
-from Rudra.utils import bot_sys_stats
-from Rudra.utils.decorators.language import language
-from Rudra.utils.inline import supp_markup
+from Rax import app
+from Rax.core.call import Rax
+from Rax.utils import bot_sys_stats
+from Rax.utils.decorators.language import language
+from Rax.utils.inline import supp_markup
 from config import BANNED_USERS
 import aiohttp
 import asyncio
@@ -52,7 +52,7 @@ async def ping_com(client, message: Message, _):
     await asyncio.sleep(3)
     await response.edit_caption("**📩sᴇɴᴅɪɴɢ sʏsᴛᴇᴍ ᴀɴᴀʟʏsᴇᴅ ᴅᴀᴛᴀ ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ...**")
     start = datetime.now()
-    pytgping = await Rudra.ping()
+    pytgping = await Rax.ping()
     UP, CPU, RAM, DISK = await bot_sys_stats()
     resp = (datetime.now() - start).microseconds / 1000
     text =  _["ping_2"].format(resp, app.name, UP, RAM, CPU, DISK, pytgping)
@@ -70,10 +70,10 @@ async def ping_com(client, message: Message, _):
         ],
         [
             InlineKeyboardButton(
-                text="✦ ɢʀᴏᴜᴘ ✦", url=f"https://t.me/Rudra_JAAT_BIO",
+                text="✦ ɢʀᴏᴜᴘ ✦", url=f"https://t.me/Rax_JAAT_BIO",
             ),
             InlineKeyboardButton(
-                text="✧ ᴍᴏʀᴇ ✧", url=f"https://t.me/Rudra_JAAT_BIO",
+                text="✧ ᴍᴏʀᴇ ✧", url=f"https://t.me/Rax_JAAT_BIO",
             )
         ],
         [

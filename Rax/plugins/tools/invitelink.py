@@ -1,11 +1,11 @@
-from Rudra import app
+from Rax import app
 from pyrogram import Client, filters
 from pyrogram.errors import ChatIdInvalid
 from pyrogram.errors import ChatAdminRequired, ChatNotModified, ChatIdInvalid, FloodWait, InviteHashExpired, UserNotParticipant
 import os
 import json
 from pyrogram.types import Message
-from Rudra.misc import SUDOERS
+from Rax.misc import SUDOERS
 
 
 

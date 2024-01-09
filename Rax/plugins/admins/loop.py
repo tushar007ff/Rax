@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Rudra import app
-from Rudra.utils.database import get_loop, set_loop
-from Rudra.utils.decorators import AdminRightsCheck
-from Rudra.utils.inline import close_markup
+from Rax import app
+from Rax.utils.database import get_loop, set_loop
+from Rax.utils.decorators import AdminRightsCheck
+from Rax.utils.inline import close_markup
 from config import BANNED_USERS
 
 

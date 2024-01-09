@@ -1,16 +1,16 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from Rudra import app
-from Rudra.utils import extract_user, int_to_alpha
-from Rudra.utils.database import (
+from Rax import app
+from Rax.utils import extract_user, int_to_alpha
+from Rax.utils.database import (
     delete_authuser,
     get_authuser,
     get_authuser_names,
     save_authuser,
 )
-from Rudra.utils.decorators import AdminActual, language
-from Rudra.utils.inline import close_markup
+from Rax.utils.decorators import AdminActual, language
+from Rax.utils.inline import close_markup
 from config import BANNED_USERS, adminlist
 
 

@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from Rudra import app
-from Rudra.misc import SUDOERS
-from Rudra.utils.database import add_off, add_on
-from Rudra.utils.decorators.language import language
+from Rax import app
+from Rax.misc import SUDOERS
+from Rax.utils.database import add_off, add_on
+from Rax.utils.decorators.language import language
 
 
 @app.on_message(filters.command(["logger"]) & SUDOERS)

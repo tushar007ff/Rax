@@ -2,7 +2,7 @@ import asyncio, os, time, aiohttp
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 from asyncio import sleep
-from Rudra import app as Hiroko
+from Rax import app as Hiroko
 from pyrogram import filters, Client, enums
 from pyrogram.enums import ParseMode
 from pyrogram.types import *
@@ -59,8 +59,8 @@ async def get_userinfo_img(
 
 # --------------------------------------------------------------------------------- #
 
-bg_path = "Rudra/assets/userinfo.png"
-font_path = "Rudra/assets/hiroko.ttf"
+bg_path = "Rax/assets/userinfo.png"
+font_path = "Rax/assets/hiroko.ttf"
 
 # --------------------------------------------------------------------------------- #
 

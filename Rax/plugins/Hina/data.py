@@ -1,6 +1,6 @@
 """MIT License
 
-Copyright (c) [Year] Team Rudra
+Copyright (c) [Year] Team Rax
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -24,7 +24,7 @@ SOFTWARE.
 
 from pyrogram import Client, filters
 from faker import Faker
-from Rudra import app
+from Rax import app
 
 # Create a Faker instance
 fake = Faker()

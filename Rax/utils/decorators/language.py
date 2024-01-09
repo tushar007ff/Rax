@@ -1,5 +1,5 @@
-from Rudra.misc import SUDOERS
-from Rudra.utils.database import get_lang, is_maintenance
+from Rax.misc import SUDOERS
+from Rax.utils.database import get_lang, is_maintenance
 from strings import get_string
 
 
