@@ -36,26 +36,26 @@ async def init():
     await app.start()
     for all_module in ALL_MODULES:
         importlib.import_module("Rax.plugins" + all_module)
-    LOGGER("Rax.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
+    LOGGER("Rax.plugins").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝...")
     await userbot.start()
     await Rax.start()
     try:
-        await Rax.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
+        await Rax.stream_call("https://telegra.ph/file/c6c9e09b6e65b73c35fe4.mp4")
     except NoActiveGroupCall:
         LOGGER("Rax").error(
-            "𝗣𝗹𝗭 𝗦𝗧𝗔𝗥𝗧 𝗬𝗢𝗨𝗥 𝗟𝗢𝗚 𝗚𝗥𝗢𝗨𝗣 𝗩𝗢𝗜𝗖𝗘𝗖𝗛𝗔𝗧\𝗖𝗛𝗔𝗡𝗡𝗘𝗟\n\n𝗗𝗔𝗫𝗫 𝗕𝗢𝗧 𝗦𝗧𝗢𝗣........"
+            "𝗣𝗹𝗭 𝗦𝗧𝗔𝗥𝗧 𝗬𝗢𝗨𝗥 𝗟𝗢𝗚 𝗚𝗥𝗢𝗨𝗣 𝗩𝗢𝗜𝗖𝗘𝗖𝗛𝗔𝗧\𝗖𝗛𝗔𝗡𝗡𝗘𝗟\n\n🆂🆃🅾🅿 🆁🅰🆇 🅱🅾🆃........"
         )
         exit()
     except:
         pass
     await Rax.decorators()
     LOGGER("Rax").info(
-        "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎𝗠𝗔𝗗𝗘 𝗕𝗬 𝗠𝗥 𝗗𝗔𝗫𝗫☠︎︎\n╚═════ஜ۩۞۩ஜ════╝"
+        "╔═════ஜ۩۞۩ஜ════╗\n  ☠︎︎🅼🅰🅳🅴 🅱🆈 🅰🅺🆂🅷🅰🆈🆇🆃☠︎︎\n╚═════ஜ۩۞۩ஜ════╝"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("Rax").info("𝗦𝗧𝗢𝗣 𝗗𝗔𝗫𝗫 𝗠𝗨𝗦𝗜𝗖🎻 𝗕𝗢𝗧..")
+    LOGGER("Rax").info("🆂🆃🅾🅿 🆁🅰🆇 🅼🆄🆂🅸🅲 🎻🅱🅾🆃")
 
 
 if __name__ == "__main__":
