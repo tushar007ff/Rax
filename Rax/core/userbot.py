@@ -58,7 +58,7 @@ class Userbot(Client):
                 pass
             assistants.append(1)
             try:
-                await self.one.send_message(config.LOGGER_ID, "Assistant Start.........")
+                await self.one.send_message(config.LOGGER_ID, "𝐑𝐚𝐱 𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭 𝐒𝐭𝐫𝐚𝐭𝐞𝐝 .......................")
                                          
             except:
                 LOGGER(__name__).error(
