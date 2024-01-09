@@ -1,7 +1,7 @@
 {
     "name": "Rax MusicBot",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://telegra.ph/file/393015358af97a6746cbe.jpg",
+    "logo": "https://telegra.ph/file/37aaa460e11b310a223bd.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -53,7 +53,7 @@
         "required": false
       },
       "LOGGER_ID": {
-        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
+        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena Madrchod.",
         "value": "",
         "required": true
       }
