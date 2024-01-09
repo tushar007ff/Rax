@@ -1,4 +1,3 @@
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/akshayxt/rax"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-bringle?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
  ㅤ ㅤ ㅤㅤ[![GIF](https://github.com/Akshayxt/Akshayxt/blob/main/Akshayxt.gif)](https://github.com/akshayxt)
    [![Team_xt�](https://github-stats-alpha.vercel.app/api?username=Akshayxt "Akshayxt")](https://github-stats-alpha.vercel.app/api?username=Akshayxt "Akshayxt")
                                                           
