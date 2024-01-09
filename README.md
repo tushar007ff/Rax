@@ -39,6 +39,11 @@ You can click the Preview link to take a look at your changes.
 
 # Github Streak ☠︎︎
 
+
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Akshayxt/rax"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-bringle?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+
+
+
   [![GitHub Streak](https://streak-stats.demolab.com?user=Akshayxt&theme=radical&border_radius=5&date_format=j%20M%5B%20Y%5D&fire=FF8100)](https://Akshayxt.me)
 
 # 🛠️ Languages and tools☠︎︎
@@ -56,3 +61,7 @@ You can click the Preview link to take a look at your changes.
 <a href="https://mail.google.com/mail/?view=cm&fs=1&to=akshaygangwar.xt@gmail.com"><img title="GMAIL" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
 <a href="https://youtube.com/akshayxt"><img title="Youtube" src="https://img.shields.io/badge/youtube-%230077B5.svg?&style=for-the-badge&logo=youtube&logoColor=white"></a>
 
+git branch -m main Rax
+git fetch origin
+git branch -u Rax Rax
+git remote set-head origin -a
